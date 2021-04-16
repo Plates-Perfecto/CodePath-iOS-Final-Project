@@ -96,10 +96,49 @@ Plates Perfecto is your very own recipe book that will guide you step by step on
 <img src="https://i.imgur.com/vp5WIXL.gif" width="250" alt="Prototype Walkthrough" />
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+#### Post
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for each recipe |
+   | cuisine | String | The cuisine(s) of the recipes. One or more, comma separated |
+   | intolerances | String | A comma-separated list of intolerances |
+   | dishTypes | String | Meal Type |
+   | addRecipeInformation | Boolean | If set to true, you get more information about the recipes returned |
+   | addRecipeNutrition | Boolean | If set to true, you get nutritional information about each recipes returned |
+   | author | String | The username of the recipe author.
+   | maxReadyTime | Int | The maximum time in minutes it should take to prepare and cook the recipe.
+   | image | file | Image of the recipe |
+   | extendedIngredients | String | list of name of the ingredients |
+   | summary | String | Summary of the food 
+   
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]![]
+#### List of network requests by screen
+   - Home Feed Screen
+      - (Read) Showcases all recommended recipes 
+         ```swift
+         let url = URL(string: "https://api.spoonacular.com/recipes/random")!
+        let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
+        let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
+        let task = session.dataTask(with: request) { (data, response, error) in
+           // This will run when the network request returns
+           if let error = error {
+              print(error.localizedDescription)
+           } else if let data = data {
+              let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+           // TODO: Do something with posts...
+            }
+         }
+
+      
+#### [OPTIONAL:] Existing API Endpoints
+##### An API Of Spoonacular Recipe
+- Base URL - [https://api.spoonacular.com](https://api.spoonacular.com)
+
+    
+   HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /recipes/{id}/information | get the information of a {id} recipe
+    `GET`    | /recipeImages/{ID}-{SIZE}.{TYPE} | get the image of the recipe
