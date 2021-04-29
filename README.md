@@ -142,3 +142,17 @@ Plates Perfecto is your very own recipe book that will guide you step by step on
    ----------|----------|------------
     `GET`    | /recipes/{id}/information | get the information of a {id} recipe
     `GET`    | /recipeImages/{ID}-{SIZE}.{TYPE} | get the image of the recipe
+
+### Sprint 1 (April 29, 2021) 
+
+### User Stories
+
+- [x] User sees an app icon on the home screen.
+- [x] User can view and switch tap on the tab views (home, breakfast, main, dessert).
+
+### App Walkthrough GIF 
+App Walkthrough <br/>
+<img src="https://i.imgur.com/en7jz6A.gif" width="250" alt="video walkthrough" />
+
+Postman API Tester <br/>
+<img src="https://i.imgur.com/zyrIDD9.gif" alt="video walkthrough" />
