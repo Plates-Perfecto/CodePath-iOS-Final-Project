@@ -147,7 +147,7 @@ Plates Perfecto is your very own recipe book that will guide you step by step on
 
 ### User Stories
 
-- [x] User sees an app icon on the home screen.
+- [x] User can see an app icon on the home screen.
 - [x] User can view and switch tap on the tab views (home, breakfast, main, dessert).
 
 ### App Walkthrough GIF 
@@ -156,3 +156,15 @@ App Walkthrough <br/>
 
 Postman API Tester <br/>
 <img src="https://i.imgur.com/zyrIDD9.gif" alt="video walkthrough" />
+
+### Sprint 2 (May 06, 2021) 
+
+### User Stories 
+
+- [x] User can see the custom launch screen 
+- [ ] User can see the image and the title of the receipe in each tab (breakfast, main, dessert)
+- [ ] User can see the suggested receipe depending on the time in home tab 
+
+### App Walkthrough GIF 
+Custom Launch Screen <br />
+<img src="https://i.imgur.com/xVwbBmE.gif" width="250" alt="Video Walkthrough" />
