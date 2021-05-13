@@ -11,6 +11,12 @@
 		CEEBE182264C77E400DE88F5 /* BreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE181264C77E400DE88F5 /* BreakfastViewController.swift */; };
 		CEEBE184264C81C300DE88F5 /* BreakfastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE183264C81C300DE88F5 /* BreakfastCell.swift */; };
 		CEEBE186264C8FE800DE88F5 /* BreakfastDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE185264C8FE800DE88F5 /* BreakfastDetailsViewController.swift */; };
+		CEEBE188264D285A00DE88F5 /* MainCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE187264D285A00DE88F5 /* MainCourseViewController.swift */; };
+		CEEBE18A264D2A5000DE88F5 /* MainCourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE189264D2A5000DE88F5 /* MainCourseCell.swift */; };
+		CEEBE18C264D2B1C00DE88F5 /* MainCourseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE18B264D2B1C00DE88F5 /* MainCourseDetailsViewController.swift */; };
+		CEEBE18E264D2CCA00DE88F5 /* DessertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE18D264D2CCA00DE88F5 /* DessertViewController.swift */; };
+		CEEBE190264D2E9400DE88F5 /* DessertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE18F264D2E9400DE88F5 /* DessertCell.swift */; };
+		CEEBE192264D2ED700DE88F5 /* DessertDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE191264D2ED700DE88F5 /* DessertDetailsViewController.swift */; };
 		E25379B9263A321D00A530F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25379B8263A321D00A530F0 /* AppDelegate.swift */; };
 		E25379BB263A321D00A530F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25379BA263A321D00A530F0 /* SceneDelegate.swift */; };
 		E25379C0263A321D00A530F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25379BE263A321D00A530F0 /* Main.storyboard */; };
@@ -26,6 +32,12 @@
 		CEEBE181264C77E400DE88F5 /* BreakfastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
 		CEEBE183264C81C300DE88F5 /* BreakfastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastCell.swift; sourceTree = "<group>"; };
 		CEEBE185264C8FE800DE88F5 /* BreakfastDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastDetailsViewController.swift; sourceTree = "<group>"; };
+		CEEBE187264D285A00DE88F5 /* MainCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCourseViewController.swift; sourceTree = "<group>"; };
+		CEEBE189264D2A5000DE88F5 /* MainCourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCourseCell.swift; sourceTree = "<group>"; };
+		CEEBE18B264D2B1C00DE88F5 /* MainCourseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCourseDetailsViewController.swift; sourceTree = "<group>"; };
+		CEEBE18D264D2CCA00DE88F5 /* DessertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewController.swift; sourceTree = "<group>"; };
+		CEEBE18F264D2E9400DE88F5 /* DessertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertCell.swift; sourceTree = "<group>"; };
+		CEEBE191264D2ED700DE88F5 /* DessertDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailsViewController.swift; sourceTree = "<group>"; };
 		E25379B5263A321D00A530F0 /* Plates Perfecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plates Perfecto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25379B8263A321D00A530F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E25379BA263A321D00A530F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +108,12 @@
 				CEEBE181264C77E400DE88F5 /* BreakfastViewController.swift */,
 				CEEBE183264C81C300DE88F5 /* BreakfastCell.swift */,
 				CEEBE185264C8FE800DE88F5 /* BreakfastDetailsViewController.swift */,
+				CEEBE187264D285A00DE88F5 /* MainCourseViewController.swift */,
+				CEEBE189264D2A5000DE88F5 /* MainCourseCell.swift */,
+				CEEBE18B264D2B1C00DE88F5 /* MainCourseDetailsViewController.swift */,
+				CEEBE18D264D2CCA00DE88F5 /* DessertViewController.swift */,
+				CEEBE18F264D2E9400DE88F5 /* DessertCell.swift */,
+				CEEBE191264D2ED700DE88F5 /* DessertDetailsViewController.swift */,
 			);
 			path = "Plates Perfecto";
 			sourceTree = "<group>";
@@ -214,11 +232,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEBE192264D2ED700DE88F5 /* DessertDetailsViewController.swift in Sources */,
 				E25379CD263A365600A530F0 /* ViewController.swift in Sources */,
+				CEEBE190264D2E9400DE88F5 /* DessertCell.swift in Sources */,
 				E25379B9263A321D00A530F0 /* AppDelegate.swift in Sources */,
+				CEEBE18C264D2B1C00DE88F5 /* MainCourseDetailsViewController.swift in Sources */,
 				CEEBE182264C77E400DE88F5 /* BreakfastViewController.swift in Sources */,
 				CEEBE186264C8FE800DE88F5 /* BreakfastDetailsViewController.swift in Sources */,
+				CEEBE18E264D2CCA00DE88F5 /* DessertViewController.swift in Sources */,
 				E25379BB263A321D00A530F0 /* SceneDelegate.swift in Sources */,
+				CEEBE18A264D2A5000DE88F5 /* MainCourseCell.swift in Sources */,
+				CEEBE188264D285A00DE88F5 /* MainCourseViewController.swift in Sources */,
 				CEEBE184264C81C300DE88F5 /* BreakfastCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
