@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89359BE0BA53E592462DF43F /* Pods_Plates_Perfecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F073CF7FCEADCEA50579F4 /* Pods_Plates_Perfecto.framework */; };
 		CEEBE182264C77E400DE88F5 /* BreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE181264C77E400DE88F5 /* BreakfastViewController.swift */; };
 		CEEBE184264C81C300DE88F5 /* BreakfastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE183264C81C300DE88F5 /* BreakfastCell.swift */; };
 		CEEBE186264C8FE800DE88F5 /* BreakfastDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE185264C8FE800DE88F5 /* BreakfastDetailsViewController.swift */; };
@@ -17,6 +16,7 @@
 		CEEBE18E264D2CCA00DE88F5 /* DessertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE18D264D2CCA00DE88F5 /* DessertViewController.swift */; };
 		CEEBE190264D2E9400DE88F5 /* DessertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE18F264D2E9400DE88F5 /* DessertCell.swift */; };
 		CEEBE192264D2ED700DE88F5 /* DessertDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE191264D2ED700DE88F5 /* DessertDetailsViewController.swift */; };
+		DD42EC5186BD668F6E5E897B /* Pods_Plates_Perfecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149C9AB7E777E3C5CF8D6B81 /* Pods_Plates_Perfecto.framework */; };
 		E25379B9263A321D00A530F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25379B8263A321D00A530F0 /* AppDelegate.swift */; };
 		E25379BB263A321D00A530F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25379BA263A321D00A530F0 /* SceneDelegate.swift */; };
 		E25379C0263A321D00A530F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25379BE263A321D00A530F0 /* Main.storyboard */; };
@@ -26,9 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33F073CF7FCEADCEA50579F4 /* Pods_Plates_Perfecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plates_Perfecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34B9EDFD06A68DC40C77B916 /* Pods-Plates Perfecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.release.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.release.xcconfig"; sourceTree = "<group>"; };
-		7C08BAD99AF96B46698488AB /* Pods-Plates Perfecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.debug.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.debug.xcconfig"; sourceTree = "<group>"; };
+		0CC8F04D25EA4345BFBB4176 /* Pods-Plates Perfecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.debug.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.debug.xcconfig"; sourceTree = "<group>"; };
+		149C9AB7E777E3C5CF8D6B81 /* Pods_Plates_Perfecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plates_Perfecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B72F6853D5EE6E46183701 /* Pods-Plates Perfecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.release.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.release.xcconfig"; sourceTree = "<group>"; };
 		CEEBE181264C77E400DE88F5 /* BreakfastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
 		CEEBE183264C81C300DE88F5 /* BreakfastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastCell.swift; sourceTree = "<group>"; };
 		CEEBE185264C8FE800DE88F5 /* BreakfastDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastDetailsViewController.swift; sourceTree = "<group>"; };
@@ -53,28 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89359BE0BA53E592462DF43F /* Pods_Plates_Perfecto.framework in Frameworks */,
+				DD42EC5186BD668F6E5E897B /* Pods_Plates_Perfecto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C37628227BF321B60AC658A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149C9AB7E777E3C5CF8D6B81 /* Pods_Plates_Perfecto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ADE75466BEADB77BFFEF2C0F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7C08BAD99AF96B46698488AB /* Pods-Plates Perfecto.debug.xcconfig */,
-				34B9EDFD06A68DC40C77B916 /* Pods-Plates Perfecto.release.xcconfig */,
+				0CC8F04D25EA4345BFBB4176 /* Pods-Plates Perfecto.debug.xcconfig */,
+				21B72F6853D5EE6E46183701 /* Pods-Plates Perfecto.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C9504AF3F062D0151EF9275C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				33F073CF7FCEADCEA50579F4 /* Pods_Plates_Perfecto.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E25379AC263A321D00A530F0 = {
@@ -83,7 +83,7 @@
 				E25379B7263A321D00A530F0 /* Plates Perfecto */,
 				E25379B6263A321D00A530F0 /* Products */,
 				ADE75466BEADB77BFFEF2C0F /* Pods */,
-				C9504AF3F062D0151EF9275C /* Frameworks */,
+				6C37628227BF321B60AC658A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,11 +125,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25379C9263A321E00A530F0 /* Build configuration list for PBXNativeTarget "Plates Perfecto" */;
 			buildPhases = (
-				4DDF24F7DC3E36C703095E70 /* [CP] Check Pods Manifest.lock */,
+				13B6FBC2E4EB07582C3713E5 /* [CP] Check Pods Manifest.lock */,
 				E25379B1263A321D00A530F0 /* Sources */,
 				E25379B2263A321D00A530F0 /* Frameworks */,
 				E25379B3263A321D00A530F0 /* Resources */,
-				56DA73C7129E595BF3997F92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,7 +185,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4DDF24F7DC3E36C703095E70 /* [CP] Check Pods Manifest.lock */ = {
+		13B6FBC2E4EB07582C3713E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,23 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		56DA73C7129E595BF3997F92 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -387,7 +369,7 @@
 		};
 		E25379CA263A321E00A530F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C08BAD99AF96B46698488AB /* Pods-Plates Perfecto.debug.xcconfig */;
+			baseConfigurationReference = 0CC8F04D25EA4345BFBB4176 /* Pods-Plates Perfecto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -407,7 +389,7 @@
 		};
 		E25379CB263A321E00A530F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34B9EDFD06A68DC40C77B916 /* Pods-Plates Perfecto.release.xcconfig */;
+			baseConfigurationReference = 21B72F6853D5EE6E46183701 /* Pods-Plates Perfecto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

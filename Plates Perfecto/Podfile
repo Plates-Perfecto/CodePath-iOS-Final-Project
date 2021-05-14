@@ -6,6 +6,5 @@ target 'Plates Perfecto' do
   use_frameworks!
 
   # Pods for Plates Perfecto
-  pod 'AlamofireImage', '~> 4.1'
 
 end
