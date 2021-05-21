@@ -194,3 +194,7 @@ Dessert Tab
 <br /> 
 <img src="https://i.imgur.com/QZIXVtY.gif" width="250" alt="Video Walkthrough" />
 </div>
+
+### Sprint 4 (May 20, 2021) 
+
+- No update on our app since we have completed everything that we need for our application. 
