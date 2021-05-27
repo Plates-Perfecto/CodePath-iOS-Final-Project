@@ -16,12 +16,11 @@
 		CEEBE18C264D2B1C00DE88F5 /* MainCourseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE18B264D2B1C00DE88F5 /* MainCourseDetailsViewController.swift */; };
 		CEEBE18E264D2CCA00DE88F5 /* DessertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE18D264D2CCA00DE88F5 /* DessertViewController.swift */; };
 		CEEBE190264D2E9400DE88F5 /* DessertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE18F264D2E9400DE88F5 /* DessertCell.swift */; };
-		CEEBE192264D2ED700DE88F5 /* DessertDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE191264D2ED700DE88F5 /* DessertDetailsViewController.swift */; };
-		34F324F02644BF0B00E8C86C /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34F324EF2644BF0B00E8C86C /* keys.plist */; };
+		CEEBE192264D2ED700DE88F5 /* DessertDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE191264D2ED700DE88F5 /* DessertDetailsViewController.swift */; };		34F324F02644BF0B00E8C86C /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34F324EF2644BF0B00E8C86C /* keys.plist */; };
 		34F324FA264D984D00E8C86C /* HomeGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F324F9264D984D00E8C86C /* HomeGridViewController.swift */; };
 		34F324FC264D9A3B00E8C86C /* HomeGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F324FB264D9A3B00E8C86C /* HomeGridCell.swift */; };
 		34F324FE264DBAFA00E8C86C /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F324FD264DBAFA00E8C86C /* HomeDetailsViewController.swift */; };
-		35DDCCB089545CE2A0841706 /* Pods_Plates_Perfecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CA2B631696434DE0CF5DA9 /* Pods_Plates_Perfecto.framework */; };
+		DD42EC5186BD668F6E5E897B /* Pods_Plates_Perfecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149C9AB7E777E3C5CF8D6B81 /* Pods_Plates_Perfecto.framework */; };
 		E25379B9263A321D00A530F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25379B8263A321D00A530F0 /* AppDelegate.swift */; };
 		E25379BB263A321D00A530F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25379BA263A321D00A530F0 /* SceneDelegate.swift */; };
 		E25379C0263A321D00A530F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25379BE263A321D00A530F0 /* Main.storyboard */; };
@@ -31,9 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33F073CF7FCEADCEA50579F4 /* Pods_Plates_Perfecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plates_Perfecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34B9EDFD06A68DC40C77B916 /* Pods-Plates Perfecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.release.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.release.xcconfig"; sourceTree = "<group>"; };
-		7C08BAD99AF96B46698488AB /* Pods-Plates Perfecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.debug.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.debug.xcconfig"; sourceTree = "<group>"; };
 		CEEBE181264C77E400DE88F5 /* BreakfastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
 		CEEBE183264C81C300DE88F5 /* BreakfastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastCell.swift; sourceTree = "<group>"; };
 		CEEBE185264C8FE800DE88F5 /* BreakfastDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastDetailsViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +44,10 @@
 		34F324F9264D984D00E8C86C /* HomeGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGridViewController.swift; sourceTree = "<group>"; };
 		34F324FB264D9A3B00E8C86C /* HomeGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGridCell.swift; sourceTree = "<group>"; };
 		34F324FD264DBAFA00E8C86C /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailsViewController.swift; sourceTree = "<group>"; };
-		82C654F7B79FBCBA25ADE16C /* Pods-Plates Perfecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.release.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.release.xcconfig"; sourceTree = "<group>"; };
-		C5CA2B631696434DE0CF5DA9 /* Pods_Plates_Perfecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plates_Perfecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E25379B5263A321D00A530F0 /* Plates Perfecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plates Perfecto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F073CF7FCEADCEA50579F4 /* Pods_Plates_Perfecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plates_Perfecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B9EDFD06A68DC40C77B916 /* Pods-Plates Perfecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.release.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.release.xcconfig"; sourceTree = "<group>"; };
+		7C08BAD99AF96B46698488AB /* Pods-Plates Perfecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plates Perfecto.debug.xcconfig"; path = "Target Support Files/Pods-Plates Perfecto/Pods-Plates Perfecto.debug.xcconfig"; sourceTree = "<group>"; };
+    E25379B5263A321D00A530F0 /* Plates Perfecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plates Perfecto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25379B8263A321D00A530F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E25379BA263A321D00A530F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E25379BF263A321D00A530F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
