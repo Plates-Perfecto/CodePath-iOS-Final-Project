@@ -142,8 +142,8 @@ extension ResponseSerializer {
 
 /// By default, any serializer declared to conform to both types will get file serialization for free, as it just feeds
 /// the data read from disk into the data response serializer.
-extension DownloadResponseSerializerProtocol where Self: DataResponseSerializerProtocol {
-    public func serializeDownload(request: URLRequest?, response: HTTPURLResponse?, fileURL: URL?, error: Error?) throws -> Self.SerializedObject {
+public extension DownloadResponseSerializerProtocol where Self: DataResponseSerializerProtocol {
+    func serializeDownload(request: URLRequest?, response: HTTPURLResponse?, fileURL: URL?, error: Error?) throws -> Self.SerializedObject {
         guard error == nil else { throw error! }
 
         guard let fileURL = fileURL else {
