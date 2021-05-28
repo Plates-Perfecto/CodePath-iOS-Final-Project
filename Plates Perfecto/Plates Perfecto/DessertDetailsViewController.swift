@@ -10,6 +10,7 @@ import AlamofireImage
 
 class DessertDetailsViewController: UIViewController {
 
+    @IBOutlet weak var instructionLabel: UILabel!
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     
@@ -17,6 +18,7 @@ class DessertDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        var instructions = ""
 
         // Do any additional setup after loading the view.
         titleLabel.text = dessert["title"] as? String
@@ -27,6 +29,21 @@ class DessertDetailsViewController: UIViewController {
         let imageURL = URL(string: imagePath)
                 
         posterView?.af_setImage(withURL: imageURL!)
+        if let step = dessert["analyzedInstructions"] as? [[String:Any]],
+            let steps = step.first
+            {
+            if let insideStep = steps["steps"] as? [[String:Any]]
+            {
+                for insideinsideStep in insideStep
+                {
+                    if let finalSteps = insideinsideStep["step"] as? String
+                    {
+                        instructions = instructions + finalSteps
+                    }
+                }
+            }
+        }
+        instructionLabel.text = instructions as? String
     }
     
 
