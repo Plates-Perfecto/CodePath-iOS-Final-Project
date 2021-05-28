@@ -13,8 +13,10 @@ class BreakfastDetailsViewController: UIViewController {
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     
+    @IBOutlet weak var ingredientsLabel: UILabel!
     @IBOutlet weak var instructionLabel: UILabel!
     var breakfast: [String:Any]!
+    var ingredientsDup = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
         var instructions = ""
@@ -39,9 +41,25 @@ class BreakfastDetailsViewController: UIViewController {
                     {
                         instructions = instructions + finalSteps
                     }
+                    if let ingredientsOutter = insideinsideStep["ingredients"] as? [[String:Any]]
+                    {
+                        for ingredients in ingredientsOutter
+                        {
+                            let temp = ingredients["name"]
+                            ingredientsDup.append(temp as! String)
+                        }
+                    }
                 }
             }
         }
+        var uniqueIngredients = Array(Set(ingredientsDup))
+        uniqueIngredients = uniqueIngredients.sorted()
+        var listIngredients = ""
+        for items in uniqueIngredients
+        {
+            listIngredients = listIngredients + items  + "\n"
+        }
+        ingredientsLabel.text = listIngredients as? String
         instructionLabel.text = instructions as? String
         
     }

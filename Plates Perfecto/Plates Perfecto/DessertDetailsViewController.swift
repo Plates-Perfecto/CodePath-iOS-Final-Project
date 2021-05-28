@@ -10,6 +10,7 @@ import AlamofireImage
 
 class DessertDetailsViewController: UIViewController {
 
+    @IBOutlet weak var ingredientsLabel: UILabel!
     @IBOutlet weak var instructionLabel: UILabel!
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -19,7 +20,7 @@ class DessertDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var instructions = ""
-
+        var ingredientsDup = [String]()
         // Do any additional setup after loading the view.
         titleLabel.text = dessert["title"] as? String
         titleLabel.sizeToFit()
@@ -40,9 +41,25 @@ class DessertDetailsViewController: UIViewController {
                     {
                         instructions = instructions + finalSteps
                     }
+                    if let ingredientsOutter = insideinsideStep["ingredients"] as? [[String:Any]]
+                    {
+                        for ingredients in ingredientsOutter
+                        {
+                            let temp = ingredients["name"]
+                            ingredientsDup.append(temp as! String)
+                        }
+                    }
                 }
             }
         }
+        var uniqueIngredients = Array(Set(ingredientsDup))
+        uniqueIngredients = uniqueIngredients.sorted()
+        var listIngredients = ""
+        for items in uniqueIngredients
+        {
+            listIngredients = listIngredients + items  + "\n"
+        }
+        ingredientsLabel.text = listIngredients as? String
         instructionLabel.text = instructions as? String
     }
     
