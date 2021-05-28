@@ -33,7 +33,7 @@
         <scene sceneID="iio-NJ-Pjo">
             <objects>
                 <navigationController id="6gx-rZ-lwC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="fJa-qc-Kes"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="fJa-qc-Kes"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1wd-xP-ZbR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -144,7 +144,7 @@
         <scene sceneID="a6v-Hx-2ZT">
             <objects>
                 <navigationController id="vvA-2d-TqL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Breakfast" id="aFi-GI-00l"/>
+                    <tabBarItem key="tabBarItem" title="Breakfast" image="breakfast" id="aFi-GI-00l"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RUv-vB-MUS">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -161,7 +161,7 @@
         <scene sceneID="VtH-PW-AlU">
             <objects>
                 <navigationController id="XLJ-nc-Yrf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Main" id="iHa-7p-H5v"/>
+                    <tabBarItem key="tabBarItem" title="Main" image="main" id="iHa-7p-H5v"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8BM-vh-nkE">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -178,7 +178,7 @@
         <scene sceneID="5nQ-8U-kQV">
             <objects>
                 <navigationController id="q5G-Lm-JCO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dessert" id="SJx-Rg-tOF"/>
+                    <tabBarItem key="tabBarItem" title="Dessert" image="dessert" id="SJx-Rg-tOF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3KR-ig-RQH">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -475,6 +475,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="breakfast" width="16" height="16"/>
+        <image name="dessert" width="16" height="16"/>
+        <image name="home" width="21.333333969116211" height="21.333333969116211"/>
+        <image name="main" width="16" height="16"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
