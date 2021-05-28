@@ -12,11 +12,12 @@ class MainCourseDetailsViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var posterView: UIImageView!
     
+    @IBOutlet weak var instructionLabel: UILabel!
     var maincourse: [String:Any]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        var instructions = ""
         // Do any additional setup after loading the view.
         
         titleLabel.text = maincourse["title"] as? String
@@ -27,6 +28,22 @@ class MainCourseDetailsViewController: UIViewController {
         let imageURL = URL(string: imagePath)
                 
         posterView?.af_setImage(withURL: imageURL!)
+        
+        if let step = maincourse["analyzedInstructions"] as? [[String:Any]],
+            let steps = step.first
+            {
+            if let insideStep = steps["steps"] as? [[String:Any]]
+            {
+                for insideinsideStep in insideStep
+                {
+                    if let finalSteps = insideinsideStep["step"] as? String
+                    {
+                        instructions = instructions + finalSteps
+                    }
+                }
+            }
+        }
+        instructionLabel.text = instructions as? String
     }
     
 
