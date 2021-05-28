@@ -33,7 +33,7 @@ class HomeGridViewController: UIViewController,UICollectionViewDataSource,UIColl
         default: brand = "dessert"
         }
         
-        let url = URL(string: "https://api.spoonacular.com/recipes/complexSearch?apiKey=199d83626fa74e18a66f0ccb2eee9f6b&type=\(brand)&number=30&addRecipeInformation=true&addRecipeINformation=true")!
+        let url = URL(string: "https://api.spoonacular.com/recipes/complexSearch?apiKey=cb3af8527ed1481abc0d8c647770e397&type=\(brand)&number=30&addRecipeInformation=true&addRecipeINformation=true")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         let task = session.dataTask(with: request) { (data, response, error) in
