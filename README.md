@@ -162,9 +162,36 @@ Postman API Tester <br/>
 ### User Stories 
 
 - [x] User can see the custom launch screen 
-- [ ] User can see the image and the title of the receipe in each tab (breakfast, main, dessert)
-- [ ] User can see the suggested receipe depending on the time in home tab 
+- [x] User can see the image and the title of the receipe in each tab (breakfast, main, dessert)
+- [x] User can see the suggested receipe depending on the time in home tab 
 
 ### App Walkthrough GIF 
 Custom Launch Screen <br />
 <img src="https://i.imgur.com/xVwbBmE.gif" width="250" alt="Video Walkthrough" />
+
+### Sprint 3 (May 13, 2021) 
+
+### User Stories 
+
+- [x] User can click the image on the home screen to go to the detail view of the receipe 
+- [x] User can click the item to see the detail of the receipe in each tab (breakfast, main, dessert)
+
+### App Walkthrough GIF
+<div>
+Breakfast Tab 
+<br />
+<img src="https://i.imgur.com/CkHKW8w.gif" width="250" alt="Video Walkthrough" />
+</div>
+
+<div>
+Main (Lunch/Dinner) Tab 
+<br />
+<img src="https://i.imgur.com/Yt80Wx5.gif" width="250" alt="Video Walkthrough" />
+</div>
+
+<div>
+Dessert Tab 
+<br /> 
+<img src="https://i.imgur.com/QZIXVtY.gif" width="250" alt="Video Walkthrough" />
+</div>
+
